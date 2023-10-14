@@ -29,8 +29,8 @@ public class StorageController {
 		return storageService.getBucketList();
 	}
 	
-	@DeleteMapping
-	public String deleteBucket(String bucketName){
+	@DeleteMapping("/{bucketName}")
+	public String deleteBucket(@PathVariable String bucketName){
 		return storageService.deleteBucket(bucketName);
 	}
 	
