@@ -26,4 +26,3 @@ Delete Mapping : http://localhost:8080/api/s3/testbucket003
 
 ![image](https://github.com/srss-pocs/springboot-localstack-s3/assets/145287517/abd5a530-e255-4267-8eb8-1ebaaa96eaac)
 
-
